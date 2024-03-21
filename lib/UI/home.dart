@@ -1,3 +1,4 @@
+import 'package:design_project/UI/dash_manage.dart';
 import 'package:design_project/UI/manage_course.dart';
 import 'package:design_project/UI/qcode_validation_request_onescreen.dart';
 import 'package:design_project/UI/todays_class.dart';
@@ -115,7 +116,7 @@ class HomePageScreen extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const ManageCourses()),
+                              builder: (context) => const DashCourses()),
                         );
                       },
                       child: const Icon(Icons.play_arrow, color: Colors.black),
